@@ -122,20 +122,11 @@ def main():
                 "ENS NAME:{}:{}".format(accounts[i]["address"], accounts[i]["domain"])
             )
 
-if __name__ == "__main__":
-    main()
-
-    """
-
-
-
     filepath = Path("data/%s/members.json" % TOKEN_ADDRESS)
     filepath.parent.mkdir(parents=True, exist_ok=True)
     with open(filepath, "w") as f:
         f.write(json.dumps(accounts, indent=4, sort_keys=True))
     logger.info("MEMBERS WRITTEN TO: {}".format(filepath))
 
-    # PRINT OUTPUT ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-    # print(json.dumps(accounts, indent=4, sort_keys=True))
-
-    """
+if __name__ == "__main__":
+    main()
