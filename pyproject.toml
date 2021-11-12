@@ -5,7 +5,7 @@ description = ""
 authors = ["Jessey White-Cinis <j@cin.is>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 python-dotenv = "^0.19.1"
 web3 = "^5.24.0"
 
