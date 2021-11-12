@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install web3
           pip install python-dotenv
-          python -u members.py ${{ github.event.inputs.address }}
+          python -u members.py ${{ github.event.inputs.address }} --ens
           git add data
           git config --global user.email "bot@cin.is"
           git config --global user.name "CyberCinis"
