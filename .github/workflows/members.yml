@@ -1,4 +1,4 @@
-name: Update dao members by searching for ethereum token holders
+name: Update members
 on:
   workflow_dispatch:
     inputs:
@@ -7,8 +7,10 @@ on:
         default: ''
         required: true
 jobs:
-  greet:
+  update_members:
     runs-on: ubuntu-latest
     steps:
     - name: Find token holders
-      run: echo "${{ github.event.inputs.address }}"
+      run: |
+        echo "${{ github.event.inputs.address }}"
+        echo "${{ secrets.ETHEREUM_NODE }}"
