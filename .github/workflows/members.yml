@@ -1,0 +1,37 @@
+name: Update members
+on:
+  workflow_dispatch:
+    inputs:
+      address:
+        description: 'ERC20 Contract Address'
+        default: ''
+        required: true
+jobs:
+  update_members:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Find and commit members
+        env:
+          ETHEREUM_NODE: ${{ secrets.ETHEREUM_NODE }}
+        run: |
+          pip install --user poetry
+          poetry install
+          poetry shell
+          python -u members.py ${{ github.event.inputs.address }}
+          git add data
+
+          git config --global user.email "bot@cin.is"
+          git config --global user.name "CyberCinis"
+
+          # || true means this won't error when there's nothing to commit
+          git commit -m "Updating members of ${{ github.event.inputs.address }}" || true
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
