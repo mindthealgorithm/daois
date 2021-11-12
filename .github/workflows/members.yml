@@ -1,0 +1,14 @@
+name: Update dao members by searching for ethereum token holders
+on:
+  workflow_dispatch:
+    inputs:
+      address:
+        description: 'ERC20 Contract Address'
+        default: ''
+        required: true
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Find token holders
+      run: echo "${{ github.event.inputs.address }}"
