@@ -19,6 +19,7 @@ jobs:
           ETHEREUM_NODE: ${{ secrets.ETHEREUM_NODE }}
         run: |
           pip install web3
+          pip install dotenv
           python -u members.py ${{ github.event.inputs.address }}
           git add data
           git config --global user.email "bot@cin.is"
