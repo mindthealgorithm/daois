@@ -18,18 +18,12 @@ jobs:
         env:
           ETHEREUM_NODE: ${{ secrets.ETHEREUM_NODE }}
         run: |
-          pip install --user poetry
-          poetry install
-          poetry shell
+          pip install web3
           python -u members.py ${{ github.event.inputs.address }}
           git add data
-
           git config --global user.email "bot@cin.is"
           git config --global user.name "CyberCinis"
-
-          # || true means this won't error when there's nothing to commit
           git commit -m "Updating members of ${{ github.event.inputs.address }}" || true
-
       - name: push changes
         uses: ad-m/github-push-action@master
         with:
