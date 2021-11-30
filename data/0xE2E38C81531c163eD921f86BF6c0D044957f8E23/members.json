@@ -1,7 +1,7 @@
 [
     {
         "address": "0xDdA88d6ba09Fa337bC85e1cf22b03CECF232332d",
-        "amount": 108950.0,
+        "amount": 80950.0,
         "domain": null
     },
     {
@@ -40,6 +40,16 @@
         "domain": null
     },
     {
+        "address": "0x174787a207BF4eD4D8db0945602e49f42c146474",
+        "amount": 3000.0,
+        "domain": "divergencevault.eth"
+    },
+    {
+        "address": "0x1DDcF25f111F5Fb653dA75aB75CE68b928C56a63",
+        "amount": 3000.0,
+        "domain": "harritee.eth"
+    },
+    {
         "address": "0x9aA8a201e7A5425a6c014a6dc51798C5C4d98971",
         "amount": 1050.0,
         "domain": null
@@ -47,7 +57,7 @@
     {
         "address": "0xe3D73DAaE939518c3853e0E8e532ae707cC1A436",
         "amount": 1000.0,
-        "domain": null
+        "domain": "nbaronia.eth"
     },
     {
         "address": "0xF03025046459EF181296DFA04c6D57e01B73E650",
@@ -193,5 +203,120 @@
         "address": "0x975FcAc1B4030ef5b5c319F972634ea6fE757998",
         "amount": 1000.0,
         "domain": "infiniteobjects.eth"
+    },
+    {
+        "address": "0x4ae76d2034c7C20374FcD6de35FD0FC8cBbAEc95",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x66003eE304887BF2Cf5c3A293C53A74355cc0582",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xE892660729D601956f83F6B9BD579AC9dF7c0b09",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x06e70B590f004f8Ba76C463727Ce2e22c93467c2",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xa6E2ba249678003918204B6730eC39976ec1D965",
+        "amount": 1000.0,
+        "domain": "yancey.eth"
+    },
+    {
+        "address": "0x2920A3192613d8c42f21b64873dc0Ddfcbf018D4",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xF11A3f4EfD430DBB0f202CcC075e29dB8f534b8C",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xcF2f9Dd248fa9c2A2b044A88C662Cf00024FaD8c",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x0CaCC6104D8Cd9d7b2850b4f35c65C1eCDEECe03",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xb0102FE8f7575caA84dfa2f41411b764D5DDAdFF",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x82806F57563cf585A4A3b064D43F8C1a4bA6FC2f",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xcd486052646c1912c669077Bb45c5f61033a1a7E",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x7E455db779d9322D99D0F0694Ca23094AAC2a6Cb",
+        "amount": 1000.0,
+        "domain": "mignano.eth"
+    },
+    {
+        "address": "0x9d470c7c4Cb5e3f99E84899A1325764382a598a3",
+        "amount": 1000.0,
+        "domain": "jonsteinberg.eth"
+    },
+    {
+        "address": "0x0DBcd6e6595Eb7aD8dA1C715fc69413750158b35",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xd9B9335002aDfa91D2a22013A370375bDFa16E08",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x452e76dCc23B9a80468062f5cc4371D96ee94a00",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x01763dBFc812640AbEbdaAc33AFD87eCAeD0cd9C",
+        "amount": 1000.0,
+        "domain": "thecounterfeit.eth"
+    },
+    {
+        "address": "0xa6E8ad0a9aaf301c58c68b956Fa85713e44974ea",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x060c467e82F373ffA1A7fC013ac9F02576bBdf60",
+        "amount": 1000.0,
+        "domain": "evhead.eth"
+    },
+    {
+        "address": "0x389b9308a9B5bb0E73dB406636aAF7cb6bfD7a78",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x387Aad218b486D4e37FA01cC282ac105A7243c4C",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x6794908a1c13c5336e6a3a21aa36a9C478518ad0",
+        "amount": 0.0,
+        "domain": null
     }
 ]
