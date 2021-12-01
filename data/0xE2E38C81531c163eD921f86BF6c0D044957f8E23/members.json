@@ -1,7 +1,7 @@
 [
     {
         "address": "0xDdA88d6ba09Fa337bC85e1cf22b03CECF232332d",
-        "amount": 80950.0,
+        "amount": 66450.0,
         "domain": null
     },
     {
@@ -313,6 +313,81 @@
         "address": "0x387Aad218b486D4e37FA01cC282ac105A7243c4C",
         "amount": 1000.0,
         "domain": null
+    },
+    {
+        "address": "0xAE16FECB2934C649db04472453c0ad853b59fd41",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x583525a8bE32b4e0FC5C61FcbC8e0Ca114b726c3",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x5877a88Eb3ea2F35eE4ECe9f4933fCfe9cDbB657",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xd3A1ab87C8aB81CB093Ef5430A387D127ac523a0",
+        "amount": 1000.0,
+        "domain": "ohjia.eth"
+    },
+    {
+        "address": "0xB69dA234bf2DaDbb816B073A9e13eeba8B3DB6ff",
+        "amount": 1000.0,
+        "domain": "gleuch.eth"
+    },
+    {
+        "address": "0x4016742F1a62Afcf08D1b5B0Bb5B5794eE20a7aA",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xc6a0F049C7E8Cc95DC508220c5A95BC50465B505",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xad3284c0b8bb49Cba7117BE72c3d575E0C1D0d54",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xD0c9645c0524D687894E70CdD249B43093C39eFB",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x7f0f9905549dA287860e3f92f8277dcb46d98508",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x609aCbe89acCb28805f554EbBDf01291aa923209",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xBB5eB75a8AD51dfa60408d76EF6df8069eee405d",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xec471C1e107f1558b7Bda6Aac778F1b2DE923966",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xc7D9E6C84166904cb8B549ab569632e045aC6849",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xcda6De577D10c2E34dA144C17760a8F1dC7Bf847",
+        "amount": 500.0,
+        "domain": "gauri.eth"
     },
     {
         "address": "0x6794908a1c13c5336e6a3a21aa36a9C478518ad0",
