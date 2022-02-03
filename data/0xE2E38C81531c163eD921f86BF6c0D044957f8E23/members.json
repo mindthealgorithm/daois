@@ -1,7 +1,7 @@
 [
     {
         "address": "0xDdA88d6ba09Fa337bC85e1cf22b03CECF232332d",
-        "amount": 66450.0,
+        "amount": 32950.0,
         "domain": null
     },
     {
@@ -13,6 +13,11 @@
         "address": "0x80A80978Aa2F0147edE29409313C4955f1eecCa0",
         "amount": 5000.0,
         "domain": "johnnyb11.eth"
+    },
+    {
+        "address": "0xe3D73DAaE939518c3853e0E8e532ae707cC1A436",
+        "amount": 5000.0,
+        "domain": "nbaronia.eth"
     },
     {
         "address": "0xC7b3E144f596e9C901d32e333A3bCBc5Cc14b5EC",
@@ -55,14 +60,9 @@
         "domain": null
     },
     {
-        "address": "0xe3D73DAaE939518c3853e0E8e532ae707cC1A436",
-        "amount": 1000.0,
-        "domain": "nbaronia.eth"
-    },
-    {
         "address": "0xF03025046459EF181296DFA04c6D57e01B73E650",
         "amount": 1000.0,
-        "domain": null
+        "domain": "rroseselavy.eth"
     },
     {
         "address": "0xE70f0C80f03702F3Ba22edD969acEa37c3cAEF6a",
@@ -232,7 +232,7 @@
     {
         "address": "0x2920A3192613d8c42f21b64873dc0Ddfcbf018D4",
         "amount": 1000.0,
-        "domain": null
+        "domain": "notboring.eth"
     },
     {
         "address": "0xF11A3f4EfD430DBB0f202CcC075e29dB8f534b8C",
@@ -242,7 +242,7 @@
     {
         "address": "0xcF2f9Dd248fa9c2A2b044A88C662Cf00024FaD8c",
         "amount": 1000.0,
-        "domain": null
+        "domain": "jakelevine.eth"
     },
     {
         "address": "0x0CaCC6104D8Cd9d7b2850b4f35c65C1eCDEECe03",
@@ -385,9 +385,189 @@
         "domain": null
     },
     {
+        "address": "0xD11e2685B85bd337d3205f103336b609Cf7d6173",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x4D6390903344A4729f21A8a3Fe808c4D1c3471B5",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xB7cA9661E0a20a3847a1d85e7f4ee59aC1f8516f",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xf7f191118C61016F5fb7bDa2f4070d31Af509B1f",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x9C7994f5ed549947A2cA9668C2F783674Efa618F",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xe841D11858DBd87B93eaBbe936347b9Dc8Cd9545",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x482A9bF73999FE07B450bDe67706e71b972e0B2e",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x573dC8dDa635FCDa49449434489C336930714488",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x93764030630F693E26531d60314cd10C82293114",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xa0D62722c4B8624D8005883ECAaAd491f0C212DE",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x106de7eA61D554a0d73eEba4832aF50D55983039",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x6cC044b1F4685a1A518406e1eB2ABe1dd058241C",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x40Bd446942588fA005f683E60A3E776D13b3a119",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x0cF9Db77cE49dA0838834D505566eB077dBE2475",
+        "amount": 1000.0,
+        "domain": "triciawang.eth"
+    },
+    {
+        "address": "0x053c2dA78f67411106C02dD015c9343Dd5D91792",
+        "amount": 1000.0,
+        "domain": "pmo.eth"
+    },
+    {
+        "address": "0x6f22bCa52Ec8ee607b80E6eB55A76Af2fD7a91aC",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x80070E2Eb1081c84355e4156533D2603D56785c0",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x9945D24178e26251F4e1f6C701087390080F9DD1",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x3497b5258Dbe44e48AE0cD72Ce20B2b55063De6D",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0xa3FE10ADF6aDdA2E556592f837Fb76bf57D6fCD9",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x960dE851108E5bcfbFa8a20f65930ee92254bA2B",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x25fc85c674CcF30b2d64a8F26b6d840C2c6DCA12",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
+        "address": "0x5fbCE559e424Fc90180423E80BBd0a15C7F12701",
+        "amount": 1000.0,
+        "domain": null
+    },
+    {
         "address": "0xcda6De577D10c2E34dA144C17760a8F1dC7Bf847",
         "amount": 500.0,
         "domain": "gauri.eth"
+    },
+    {
+        "address": "0x44729715C99BAb8669113DD0e11378c5B6025f3a",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0x59FFC3d350695A48f14a93A199103eAEFAEAB6ca",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0x8f7627192408da1891b9173b9F8A5273EaE43950",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0xb4a84D83A392dd2fE615a4E8567d8fcee711770A",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0x0090720FeD7Fed66eD658118b7B3BB0189D3A495",
+        "amount": 500.0,
+        "domain": "sammybauch.eth"
+    },
+    {
+        "address": "0x29c310B6F4F54f3134D9839F62059db212001B55",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0xaC2a6Aac24f0e500050f538d20c2924DA05E7686",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0xfCDD256267ade068babfB94F526A47aADf143a55",
+        "amount": 500.0,
+        "domain": "sorenwrenn.eth"
+    },
+    {
+        "address": "0x2AAB747822B72B9E749252899f19f92E107454DC",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0x5b4b5F24c3D46056C48844badd0Dccd9BAdA83e1",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0xea48B36510239ECc64AB27B56d7B02E5999821d6",
+        "amount": 500.0,
+        "domain": "sebpark.eth"
+    },
+    {
+        "address": "0xA9b48750494A85Da133A5569e6c70DC37B47a68E",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0xceB1F12e54944b0171D8C2A3759e2afA6Da6858F",
+        "amount": 500.0,
+        "domain": null
     },
     {
         "address": "0x6794908a1c13c5336e6a3a21aa36a9C478518ad0",
