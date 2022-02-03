@@ -22,8 +22,8 @@ jobs:
           pip install python-dotenv
           python -u members.py ${{ github.event.inputs.address }} --ens
           git add data
-          git config --global user.email "bot@cin.is"
-          git config --global user.name "CyberCinis"
+          git config --global user.email "github@mindthealgorithm.com"
+          git config --global user.name "Github Actions"
           git commit -m "Updating members of ${{ github.event.inputs.address }}" || true
       - name: push changes
         uses: ad-m/github-push-action@master
