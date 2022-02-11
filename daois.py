@@ -71,7 +71,7 @@ def main():
     """
     Generates a json file containing all of the members of a dao by searching the blockchain for token holders.
 
-    Usage: python members.py [contract_address]
+    Usage: python daois.py [contract_address]
     """
 
     load_dotenv()

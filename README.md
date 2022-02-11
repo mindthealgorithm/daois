@@ -14,5 +14,5 @@ ETHEREUM_NODE = "https://mainnet.infura.io/v3/1234567890"
 ```
 poetry install
 poetry shell
-python members.py {ERC20 contract address}
+python daois.py {ERC20 contract address}
 ```
