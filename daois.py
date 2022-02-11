@@ -126,11 +126,30 @@ def main():
                 "ENS NAME:{}:{}".format(accounts[i]["address"], accounts[i]["domain"])
             )
 
+    # Write members to file
     filepath = Path("data/%s/members.json" % TOKEN_ADDRESS)
     filepath.parent.mkdir(parents=True, exist_ok=True)
     with open(filepath, "w") as f:
         f.write(json.dumps(accounts, indent=4, sort_keys=True))
     logger.info("MEMBERS WRITTEN TO: {}".format(filepath))
+
+    # Write dao info to file
+    filepath = Path("data/%s/info.json" % TOKEN_ADDRESS)
+    filepath.parent.mkdir(parents=True, exist_ok=True)
+    with open(filepath, "w") as f:
+        f.write(
+            json.dumps(
+                {
+                    "symbol": TOKEN_SYMBOL,
+                    "decimals": TOKEN_DECIMALS,
+                    "members": len(accounts),
+                    "address": TOKEN_ADDRESS,
+                },
+                indent=4,
+                sort_keys=True,
+            )
+        )
+    logger.info("INFO WRITTEN TO: {}".format(filepath))
 
 
 if __name__ == "__main__":
