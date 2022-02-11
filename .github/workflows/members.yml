@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install web3
           pip install python-dotenv
-          python -u members.py ${{ github.event.inputs.address }} --ens
+          python -u daois.py ${{ github.event.inputs.address }} --ens
           git add data
           git config --global user.email "github@mindthealgorithm.com"
           git config --global user.name "Github Actions"
