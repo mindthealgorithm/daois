@@ -58,6 +58,10 @@ def get_token_owners(w3, address, from_block=0):
         balances[str(tx["from"])] -= tx["amount"]
         balances[tx["to"]] += tx["amount"]
 
+        # Remove former token holders
+        if balances[tx["from"]] == 0:
+            del balances[tx["from"]]
+
     if BLACKHOLE in balances:
         del balances[BLACKHOLE]
 
@@ -111,7 +115,7 @@ def main():
 
     logger.debug("CONVERTING AMOUNTS TO {} DECIMALS".format(TOKEN_DECIMALS))
     for i in range(len(accounts)):
-        accounts[i]["amount"] = int(accounts[i]["amount"]) / (10 ** TOKEN_DECIMALS)
+        accounts[i]["amount"] = int(accounts[i]["amount"]) / (10**TOKEN_DECIMALS)
 
     if FETCH_DOMAINS:
         logger.info("FETCHING ENS DOMAINS FOR ACCOUNTS")
@@ -127,6 +131,7 @@ def main():
     with open(filepath, "w") as f:
         f.write(json.dumps(accounts, indent=4, sort_keys=True))
     logger.info("MEMBERS WRITTEN TO: {}".format(filepath))
+
 
 if __name__ == "__main__":
     main()
