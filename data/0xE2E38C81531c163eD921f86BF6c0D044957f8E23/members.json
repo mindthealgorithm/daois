@@ -15,11 +15,6 @@
         "domain": "johnnyb11.eth"
     },
     {
-        "address": "0xe3D73DAaE939518c3853e0E8e532ae707cC1A436",
-        "amount": 5000.0,
-        "domain": "nbaronia.eth"
-    },
-    {
         "address": "0xC7b3E144f596e9C901d32e333A3bCBc5Cc14b5EC",
         "amount": 5000.0,
         "domain": null
@@ -43,6 +38,11 @@
         "address": "0xF2C268b60AA5462c433dF05645B289422b85dDEC",
         "amount": 5000.0,
         "domain": null
+    },
+    {
+        "address": "0xe3D73DAaE939518c3853e0E8e532ae707cC1A436",
+        "amount": 5000.0,
+        "domain": "nbaronia.eth"
     },
     {
         "address": "0x174787a207BF4eD4D8db0945602e49f42c146474",
@@ -547,7 +547,7 @@
     {
         "address": "0x2AAB747822B72B9E749252899f19f92E107454DC",
         "amount": 500.0,
-        "domain": null
+        "domain": "parkerquinn.eth"
     },
     {
         "address": "0x5b4b5F24c3D46056C48844badd0Dccd9BAdA83e1",
@@ -567,11 +567,6 @@
     {
         "address": "0xceB1F12e54944b0171D8C2A3759e2afA6Da6858F",
         "amount": 500.0,
-        "domain": null
-    },
-    {
-        "address": "0x6794908a1c13c5336e6a3a21aa36a9C478518ad0",
-        "amount": 0.0,
         "domain": null
     }
 ]
