@@ -1,6 +1,5 @@
 name: Update DAO Info and Members
 on:
-  on:
   workflow_call:
     inputs:
       address:
