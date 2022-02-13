@@ -11,6 +11,6 @@ jobs:
   adhoc_update:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/actions/daois
+      - uses: ./.github/workflows/daois
         with:
           address: ${{ inputs.address }}
