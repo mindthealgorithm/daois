@@ -6,7 +6,10 @@ jobs:
   echo-meow:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo dispatch message
-        uses: mindthealgorithm/daois/.github/actions/echo@main
+      - name: checkout
+        uses: actions/checkout@v2
+      
+      - name: echo dispatch message
+        uses: ./.github/workflows/echo.yml
         with:
           message: ${{inputs.message}}
