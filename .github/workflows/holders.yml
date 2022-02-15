@@ -11,22 +11,16 @@ on:
       ETHEREUM_NODE:
         required: true
 jobs:
-  fetch_holders:
+  fetch_token_holders:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      
+      - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
       
-      - name: Echo variables
-        run: |
-          echo ${{inputs.address}}
-          echo ${{secrets.ETHEREUM_NODE}}
-          echo ${{ secrets.GITHUB_TOKEN }}
-          echo ${{ github.ref }}
-
-      - name: Find and commit members
+      - name: Fetch and commit token holders
         env:
           ETHEREUM_NODE: ${{secrets.ETHEREUM_NODE}}
         run: |
@@ -38,7 +32,7 @@ jobs:
           git config --global user.name "Github Actions"
           git commit -m "Updating members of ${{inputs.address}}" || true
       
-      - name: push changes
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
