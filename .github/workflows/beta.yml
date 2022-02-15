@@ -6,3 +6,5 @@ jobs:
     uses: mindthealgorithm/daois/.github/workflows/holders.yml@main
     with:
       address: "0xE2E38C81531c163eD921f86BF6c0D044957f8E23"
+    secrets:
+      ETHEREUM_NODE: ${{secrets.ETHEREUM_NODE}}
