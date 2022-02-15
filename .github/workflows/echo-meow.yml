@@ -1,0 +1,12 @@
+name: echo-meow
+on:
+  workflow_dispatch:
+jobs:
+  # This workflow contains a single job called "build"
+  echo-meow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo dispatch message
+        uses: mindthealgorithm/daois/.github/workflows/echo.yml
+        with:
+          message: ${{inputs.message}}
