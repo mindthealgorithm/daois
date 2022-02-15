@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: ./.github/workflows/daois.yml
         with:
-          address: 0xE2E38C81531c163eD921f86BF6c0D044957f8E23
+          address: "0xE2E38C81531c163eD921f86BF6c0D044957f8E23"
