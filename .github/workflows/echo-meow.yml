@@ -1,8 +1,0 @@
-name: echo-meow
-on:
-  workflow_dispatch:
-jobs:
-  echo-meow:
-    uses: mindthealgorithm/daois/.github/workflows/echo.yml@main
-    with:
-      message: "MEOW"
