@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo dispatch message
-        uses: mindthealgorithm/daois/.github/workflows/echo.yml
+        uses: mindthealgorithm/daois/.github/actions/echo@main
         with:
           message: ${{inputs.message}}
