@@ -6,11 +6,10 @@ on:
         description: 'ERC20 Contract Address'
         required: true
         type: string
-        default: ''
 jobs:
   fetch_token_holders:
     uses: mindthealgorithm/daois/.github/workflows/holders.yml@main
     with:
-      address: ${{inputs.address}}
+      address: ${{ inputs.address }}
     secrets:
-      ETHEREUM_NODE: ${{secrets.ETHEREUM_NODE}}
+      ETHEREUM_NODE: ${{ secrets.ETHEREUM_NODE }}
