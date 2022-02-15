@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
 jobs:
   echo-meow:
-  - name: echo MEOW
     uses: mindthealgorithm/daois/.github/workflows/echo.yml@main
     with:
       message: "MEOW"
