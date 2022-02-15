@@ -3,12 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   echo-meow:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      
-      - name: echo dispatch message
-        uses: mindthealgorithm/daois/.github/workflows/echo.yml@main
-        with:
-          message: "MEOW"
+    - name: echo MEOW
+      uses: mindthealgorithm/daois/.github/workflows/echo.yml@main
+      with:
+        message: "MEOW"
