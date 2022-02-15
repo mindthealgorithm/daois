@@ -10,6 +10,6 @@ jobs:
         uses: actions/checkout@v2
       
       - name: echo dispatch message
-        uses: ./.github/workflows/echo.yml
+        uses: mindthealgorithm/daois/.github/workflows/echo.yml@main
         with:
           message: ${{inputs.message}}
