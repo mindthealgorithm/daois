@@ -6,8 +6,9 @@ on:
         description: 'ERC20 Contract Address'
         default: ''
         required: true
+        type: string
 jobs:
-  update_members:
+  cache-token-holders:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
