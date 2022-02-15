@@ -2,9 +2,13 @@ name: BetaDAO
 on:
   workflow_dispatch:
 jobs:
-  cache_dao_members:
+  betadao:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/actions/daois
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - uses: ./.github/workflows/daois.yml
         with:
           address: "0xE2E38C81531c163eD921f86BF6c0D044957f8E23"
