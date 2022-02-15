@@ -10,6 +10,6 @@ jobs:
   fetch_token_holders:
     uses: mindthealgorithm/daois/.github/workflows/holders.yml@main
     with:
-      address: ${{ inputs.address }}
+      address: ${{ github.event.inputs.address }}
     secrets:
       ETHEREUM_NODE: ${{ secrets.ETHEREUM_NODE }}
