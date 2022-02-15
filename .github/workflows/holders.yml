@@ -18,9 +18,28 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+      
       - name: Echo variables
         run: |
           echo ${{inputs.address}}
           echo ${{secrets.ETHEREUM_NODE}}
           echo ${{ secrets.GITHUB_TOKEN }}
           echo ${{ github.ref }}
+
+      - name: Find and commit members
+        env:
+          ETHEREUM_NODE: ${{secrets.ETHEREUM_NODE}}
+        run: |
+          pip install web3
+          pip install python-dotenv
+          python -u daois.py ${{inputs.address}} --ens
+          git add data
+          git config --global user.email "github@mindthealgorithm.com"
+          git config --global user.name "Github Actions"
+          git commit -m "Updating members of ${{inputs.address}}" || true
+      
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          branch: ${{github.ref}}
