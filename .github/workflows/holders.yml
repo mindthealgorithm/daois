@@ -1,0 +1,23 @@
+name: Fetch Token Holders
+on:
+  workflow_call:
+    inputs:
+      address:
+        description: 'ERC20 Contract Address'
+        default: ''
+        required: true
+        type: string
+jobs:
+  fetch_holders:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Echo variables
+        run: |
+          echo ${{inputs.address}}
+          echo ${{secrets.ETHEREUM_NODE}}
+          echo ${{ secrets.GITHUB_TOKEN }}
+          echo ${{ github.ref }}
