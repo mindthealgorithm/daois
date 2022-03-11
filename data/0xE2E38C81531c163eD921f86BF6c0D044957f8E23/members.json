@@ -41,7 +41,7 @@
     },
     {
         "address": "0xe3D73DAaE939518c3853e0E8e532ae707cC1A436",
-        "amount": 5000.0,
+        "amount": 4500.0,
         "domain": "nbaronia.eth"
     },
     {
@@ -566,6 +566,11 @@
     },
     {
         "address": "0xceB1F12e54944b0171D8C2A3759e2afA6Da6858F",
+        "amount": 500.0,
+        "domain": null
+    },
+    {
+        "address": "0x823E3B6387e52Bf339A4D939572b0392983532aD",
         "amount": 500.0,
         "domain": null
     }
