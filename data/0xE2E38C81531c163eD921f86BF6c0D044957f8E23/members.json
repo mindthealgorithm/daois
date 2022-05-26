@@ -440,11 +440,6 @@
         "domain": null
     },
     {
-        "address": "0x6cC044b1F4685a1A518406e1eB2ABe1dd058241C",
-        "amount": 1000.0,
-        "domain": null
-    },
-    {
         "address": "0x40Bd446942588fA005f683E60A3E776D13b3a119",
         "amount": 1000.0,
         "domain": null
@@ -498,6 +493,11 @@
         "address": "0x5fbCE559e424Fc90180423E80BBd0a15C7F12701",
         "amount": 1000.0,
         "domain": null
+    },
+    {
+        "address": "0xf4b8b9232FDcCdA76EC9285a91eCa9892ed9bB15",
+        "amount": 1000.0,
+        "domain": "andrewxhill.eth"
     },
     {
         "address": "0xcda6De577D10c2E34dA144C17760a8F1dC7Bf847",
